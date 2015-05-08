@@ -11,6 +11,6 @@
 % V is matrix of size 12000 by 9 where 9 is principal_component_counts
 % It represents the first 9 principal component vectors
 function [V,D] = octpca(patches, principal_component_counts)
-CovMat=cov(patches);
-[V,D]=eigs(CovMat,principal_component_counts);
+    CovMat=cov(patches);
+    [V,D]=eigs(CovMat,principal_component_counts);
 end

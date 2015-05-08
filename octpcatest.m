@@ -1,6 +1,6 @@
 %% OCT PCA Test
 
-file = load('dataset/Farsiu_Ophthalmology_2013_AMD_Subject_1030');
+file = load('data/Farsiu_Ophthalmology_2013_AMD_Subject_1240');
 
 imgs = file.images;
 
